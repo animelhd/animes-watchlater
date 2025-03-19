@@ -18,7 +18,7 @@ trait Watchlaterable
         return $this->hasBeenWatchlateredBy($user);
     }
 
-    public function hasFavoriter(Model $user): bool
+    public function hasWatchlaterer(Model $user): bool
     {
         return $this->hasBeenWatchlateredBy($user);
     }
